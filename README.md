@@ -16,7 +16,7 @@ This repository showcases tactical forensic data acquisition, bit-stream disk mi
 
 ---
 
-## 🔍 Case Study: Enterprise Hardware Peripheral Footprinting
+## 🔍 Case Study 1: Enterprise Hardware Peripheral Footprinting
 Investigated persistent configuration database tracking artifacts on the host architecture to reconstruct a comprehensive lineage of historical and current physical hardware peripheral insertions.
 
 ![USBDeview Forensic Triage Matrix](usbdeview_footprint.png)
@@ -41,3 +41,14 @@ Investigated persistent configuration database tracking artifacts on the host ar
              ▼ (Deep Forensic Analysis & Artifact Extraction)
 [ Magnet AXIOM / EnCase Enterprise Ingestion Platforms ]
 ```
+---
+
+## 🔍 Case Study 2: Bit-Stream Forensic Data Acquisition
+Demonstrating structural storage media imaging, low-level partition validation, and filesystem analysis baselines.
+
+![FTK Imager Evidence Extraction Window](ftk_imager_acquisition.png)
+
+### *Key Evidence Discovered from the Acquisition Vector:*
+*   **Low-Level Hex Parsing:** Successfully read raw drive geometries and boot records, exposing structural hex signatures (`EB 52 90 4E 54 46 53`) mapping to native host partition definitions.
+*   **Non-Destructive Target Mounting:** Validated active logical sectors without altering core system file timestamps, verifying cross-contamination protection properties.
+
